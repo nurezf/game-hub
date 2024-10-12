@@ -16,7 +16,7 @@ export interface Game {
     metacritic:number;
   }
   
-  interface FetchGamesResponse {
+ export interface FetchGamesResponse {
     count: number;
     results: Game[];
   }
